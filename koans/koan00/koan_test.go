@@ -3,7 +3,7 @@ package koan00
 import "testing"
 
 func Test(t *testing.T) {
-	t.Log("Focus: Function definitions now accept type parameters.")
+	t.Log("Focus: Function declarations now accept type parameters.")
 	t.Log("https://tip.golang.org/ref/spec#Type_parameter_declarations")
 	t.Log("https://tip.golang.org/ref/spec#Function_declarations")
 }
