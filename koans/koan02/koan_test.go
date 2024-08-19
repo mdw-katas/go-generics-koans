@@ -54,7 +54,7 @@ type (
 // Mess with the code below to make all tests pass //
 
 func NewPoint(x, y int) Point {
-	return Point{x, y}
+	return Point{X: x, Y: y}
 }
 
 type Point struct {
