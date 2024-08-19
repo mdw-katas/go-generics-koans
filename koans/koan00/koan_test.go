@@ -7,7 +7,6 @@ func Test(t *testing.T) {
 	t.Log("https://tip.golang.org/ref/spec#Type_parameter_declarations")
 	t.Log("https://tip.golang.org/ref/spec#Function_declarations")
 }
-
 func TestInt(t *testing.T) {
 	a, b := int(1), int(2)
 	m := Min(a, b)
