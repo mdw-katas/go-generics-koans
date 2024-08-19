@@ -22,6 +22,11 @@ func TestUInt(t *testing.T) {
 	}
 }
 
+// Numeric defines a type constraint for generic functions.
+type Numeric interface {
+	int | uint
+}
+
 // DO NOT MODIFY ANY CODE ABOVE THIS LINE ///////////
 /////////////////////////////////////////////////////
 // Mess with the code below to make all tests pass //
